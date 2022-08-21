@@ -87,7 +87,7 @@ a {
 .indicator {
   position: absolute;
   width: 8px;
-  height: 5px;
+  height: 3px;
   background-color: var(--primary-color);
 }
 
@@ -104,12 +104,13 @@ a {
 
 .ind-3 {
   left: 50%;
-  transform: rotate(90deg) translate(1px, 0%);
+  top: 0;
+  transform: rotate(90deg) translate(2px, 130%);
 }
 
 .ind-4 {
   left: 50%;
-  transform: rotate(90deg) translate(-1px, 0%);
+  transform: rotate(90deg) translate(-1px, 130%);
   bottom: 0;
 }
 
